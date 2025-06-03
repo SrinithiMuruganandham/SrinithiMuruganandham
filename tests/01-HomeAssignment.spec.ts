@@ -6,6 +6,8 @@ test("To launch the browser", async () => {
   await edgePage.goto('https://www.redbus.in');
   console.log('THE TITLE OF REDBUS IS:', await edgePage.title());
   console.log('THE URL OF REDBUS IS:', await edgePage.url());
+  await edgePage.waitForTimeout(5000);
+
   
 
 
@@ -16,5 +18,6 @@ test("To launch the browser", async () => {
   await firefoxPage.goto('https://www.flipkart.com');
   console.log('THE TITLE OF FIREFOX IS: ', await firefoxPage.title());
   console.log(`THE URL OF FIREFOX IS : `, await firefoxPage.url());
+   await firefoxPage.waitForTimeout(5000);
 
 });

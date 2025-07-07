@@ -1,0 +1,20 @@
+Three levels of configurations :
+
+1. CLI - Highest priority [execute in command line]
+
+2. Test level configuration - Higher that the congif file[Execute using Open in Integrated Terminal]
+
+3. playwright.config.ts(default configuration)- least priority [This executes in the root directory]
+
+
+Commands used :
+
+To create a playwright file - filename.spec.ts
+
+To run the test file - npx playwright test filename.spec.ts
+
+To open the test report - npx playwright show-report
+
+
+Default mode - headless
+

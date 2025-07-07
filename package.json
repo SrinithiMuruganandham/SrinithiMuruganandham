@@ -1,0 +1,23 @@
+{
+  "name": "playwright",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test=qa": "npx playwright test 03-learntoreadmultiENV.spec.ts --config=playwright.qa.config.ts",
+    "test=prod": "npx playwright test 03-learntoreadmultiENV.spec.ts --config=playwright.prod.config.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "@types/node": "^22.15.21"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^9.8.0",
+    "csv-parse": "^5.6.0",
+    "dotenv": "^16.5.0",
+    "fs": "^0.0.1-security"
+  }
+}

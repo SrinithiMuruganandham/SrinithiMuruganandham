@@ -1,0 +1,16 @@
+
+
+Naming conventions in JavaScript followed but not strictly adhered :
+
+
+Variables -->	camelCase	
+let userName
+
+Functions --> camelCase	
+function getData()
+
+Object Properties-->	camelCase	
+user.firstName
+
+Classes / Constructors -->	PascalCase	
+class UserProfile

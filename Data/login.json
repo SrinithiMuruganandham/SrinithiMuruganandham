@@ -1,0 +1,16 @@
+[
+
+
+    {
+"TCaseId" : "TC001",
+"Username" : "DemoSalesManager",
+"Password" : "crmsfa"
+
+
+    },{
+        "TCaseId" : "TC002",
+        "Username" : "DemoCSR",
+        "Password" : "crmsfa"
+        
+            }
+]

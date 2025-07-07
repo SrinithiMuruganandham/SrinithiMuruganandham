@@ -1,0 +1,45 @@
+
+Assertions --validating the script
+--------
+actual ==Expected
+
+page Assertions
+locator Assertions
+api Assertions
+screenshot
+
+hard assert 
+  actual !=Expected  -->fail the test and stops the execution
+  usage -->Without creating lead -->edit 
+    ->without navigating to the new page , i cannot handle action in the new page
+  
+soft assert
+   actual !=Expected -->continue with the execution and collects the failure at the end
+   text -->
+
+
+   Playwright assertions 
+
+   page assertions
+   Locator assertions
+
+   library -->expect library 
+
+   fill()
+   locator.click()
+
+actionability check 
+ele is visible
+ele is enabled
+ele is clickable
+ele is editable
+ele is stable
+ele is receive event -->ele is able to get the action / overlaid of ele
+
+Retrying assertions -->page, locator
+
+Non-retrying assertion -->verifying the text -->innertext() -generic asseertion
+   
+      await page.waitForLoadState('load')  //wait for the dom element -->attribute / all style/css
+      await page.waitForTimeout(3000) //pause the execution 3s 
+      await page.waitForSelector('xpath')  //wait to loacte the element

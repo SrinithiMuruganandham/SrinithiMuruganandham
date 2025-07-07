@@ -1,0 +1,24 @@
+Dropdown :
+
+1. Select tags
+<select id="">
+<option value = "option1">Option1</option> // index=0
+<option value = "option2">Option2</option> // index=1
+
+
+a. Select By Value --> 
+It should meaningfull and is not prone changes more reliable comparitevely
+
+b. Select By label. --> 
+Tend to change due to geography / business requirement
+
+c. Select BY index. --> 
+When ever there is no chnage in the order of your dropdown you can go for Select By Index.
+
+
+
+
+2. Non-select tag
+
+1. Locate your dropdown - click / enetr the value.
+2. Locate the particular option from the dropdownlist - click it.
